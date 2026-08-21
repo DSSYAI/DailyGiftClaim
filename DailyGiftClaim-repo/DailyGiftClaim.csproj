@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    《虚拟桌宠模拟器》- 每日礼包一键领取
+    构建要求: 安装 .NET 8 SDK (https://dotnet.microsoft.com/download/dotnet/8.0)
+    构建命令: dotnet build -c Release   (或直接运行 publish.ps1)
+  -->
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <OutputType>Library</OutputType>
+    <RootNamespace>DailyGiftClaim</RootNamespace>
+    <AssemblyName>DailyGiftClaim</AssemblyName>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <Platforms>AnyCPU</Platforms>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- 游戏官方 Mod API（与 ModMaker 同版本） -->
+    <PackageReference Include="VPet-Simulator.Core" Version="1.1.0.66" />
+    <PackageReference Include="VPet-Simulator.Windows.Interface" Version="1.1.0.66" />
+  </ItemGroup>
+
+</Project>

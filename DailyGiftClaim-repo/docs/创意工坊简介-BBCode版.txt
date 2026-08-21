@@ -1,0 +1,87 @@
+[h1]Daily Gift One-Click Claim[/h1]
+
+A small tool that claims your daily gift pack in VPet-Simulator with one click — no more digging through the backpack every day.
+
+[hr]
+
+[h2]Features[/h2]
+
+[b]One-click claim[/b]
+Right-click your pet → Custom → Daily Gift, then click once in the popup to open all gift packs in your inventory (including saved-up ones).
+
+[b]Auto-claim[/b]
+Enabled by default — claims automatically on game launch and shows what you got in a popup; can be turned off in the popup.
+
+[b]Cross-midnight catch-up[/b]
+Even if the game has been running across midnight without a restart, today's pack is still claimed automatically.
+
+[b]Select & use[/b]
+Claimed items are listed in the popup — check the ones you want and use them in one click, with a select-all button.
+
+[b]Official mechanism[/b]
+Opening reuses the game's own Item.Use() logic — rewards are identical to manual opening, and game updates require no changes.
+
+[hr]
+
+[h2]FAQ[/h2]
+
+[b]Can't find the button?[/b]
+Enable the code plugin in Settings → MOD Manager, then restart the game. The button is under Right-click pet → Custom.
+
+[b]Does it affect the HashCheck badge?[/b]
+No. Everything goes through official game APIs, identical to manual play.
+
+[b]Is it safe?[/b]
+100% local: no network, no data upload, no injection, no tampering with other processes. Fully open source for audit.
+
+[b]Will uninstalling lose items?[/b]
+No. Claimed items are part of your normal save. Just delete the mod folder to uninstall.
+
+[hr]
+
+[i]This mod was created with the assistance of DeepSeek Harness.[/i]
+
+--- 中文版 / Chinese ---
+
+[h1]每日礼包一键领取[/h1]
+
+《虚拟桌宠模拟器》每日礼包一键领取小工具 —— 不用再每天进背包手动开礼包。
+
+[hr]
+
+[h2]功能[/h2]
+
+[b]一键领取[/b]
+右键桌宠 → 自定 → 每日礼包，弹窗里点一下，背包里所有礼包一次开完（含多日积攒的）。
+
+[b]自动领取[/b]
+默认开启，游戏启动时自动领取并弹窗显示所得；可在弹窗中关闭。
+
+[b]跨零点补发[/b]
+游戏跨过午夜未重启时，也会自动领取当天的礼包。
+
+[b]点击即用[/b]
+弹窗中列出本次获得的物品，勾选后可一键使用，支持全选（食物直接吃，其他道具按各自用途生效）。
+
+[b]复用官方机制[/b]
+开包复用游戏自身的 Item.Use() 逻辑，奖励内容与手动开包完全一致，游戏更新也无需改动。
+
+[hr]
+
+[h2]常见问题[/h2]
+
+[b]找不到按钮？[/b]
+首次使用需在 游戏设置 → MOD 管理 中允许本 MOD 的代码插件，然后重启游戏。按钮位于 右键桌宠 → 自定。
+
+[b]会影响"干净存档"徽章吗？[/b]
+不会。所有操作均通过游戏官方 API 完成，与手动操作无任何区别。
+
+[b]安全吗？[/b]
+纯本地运行：不联网、不上传数据、不注入、不改动其他进程，源码完全开源可供检查。
+
+[b]卸载会丢道具吗？[/b]
+不会。已开出的道具属于正常游戏存档，删除 MOD 文件夹即可卸载。
+
+[hr]
+
+[i]本 MOD 由 DeepSeek Harness 协助开发。[/i]
