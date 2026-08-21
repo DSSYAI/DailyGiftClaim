@@ -9,6 +9,8 @@ A small tool that claims your daily gift pack in VPet‑Simulator with one click
 </div>
 
 ---
+**Steam 创意工坊**：[每日礼包一键领取](https://steamcommunity.com/sharedfiles/filedetails/?id=3785774469)
+---
 
 ## Features
 
