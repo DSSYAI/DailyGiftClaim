@@ -15,3 +15,16 @@ Desktop.ini
 
 # Logs
 *.log
+
+# 密钥与凭据 —— 永不入库
+.env
+.env.*
+*.credentials.yaml
+credentials.yaml
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.kdbx
